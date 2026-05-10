@@ -1,0 +1,30 @@
+/* ===== Volet de navigation (sidebar) — bleu nuit ===== */
+.sideNav, #sideNav, nav {                   /* ← adaptez le sélecteur à votre HTML */
+  background-color: #1b3a5c !important;   /* bleu nuit profond */
+  color: #e0e8f0;                         /* texte clair pour contraste */
+}
+
+.sideNav a, nav a {
+  color: #90bfda;                  /* liens en bleu clair */
+}
+
+.sideNav a:hover, nav a:hover {
+  color: #ffffff;
+  background-color: #2d4f74;       /* survol bleu marine */
+}
+
+/* ===== Zone centrale (body/contenu) — bleu très clair ===== */
+main, .content, #container-fluid p-0, .container-fluid p-0 {   /* ← adaptez le sélecteur */
+  background-color: #eaf3fb !important;     /* bleu tendant vers blanc */
+  color: #1a2e42;                           /* texte bleu foncé doux */
+}
+
+#text-primary, .text-primary{
+  color: #0c3d6e !important;                /* titres en bleu foncé */
+}
+
+a:not([href]):not([class]), a:not([href]):not([class]):hover {
+  /*color: inherit;*/
+  color : #043058;                /* liens sans href en bleu foncé */
+  text-decoration: none;
+}
